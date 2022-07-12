@@ -1,0 +1,22 @@
+{
+  "name": "project-todo",
+  "version": "1.0.0",
+  "description": "ToDo App BackEnd",
+  "scripts": {
+    "start": "nodemon ./src"
+  },
+  "author": "Aura C.",
+  "license": "MIT",
+  "dependencies": {
+    "@types/uuid": "^8.3.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "figlet": "^1.5.2",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.8",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}

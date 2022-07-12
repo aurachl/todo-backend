@@ -1,0 +1,31 @@
+# Error Log Files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules/
+
+# TypeScript Related
+*.tsbuildinfo
+
+# Ignore built ts files
+dist/**/*
+
+# Optional npm cache directory
+.npm
+
+# Lock files
+package-lock.json
+*.lock
+
+#Database bin files
+*.db
+*.sqlite
